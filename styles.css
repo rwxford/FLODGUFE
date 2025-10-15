@@ -1,0 +1,106 @@
+/* FLODGUFE RV website stylesheet */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #111;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #003366;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+nav a {
+  color: #ffffff;
+  margin-right: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.cta-button {
+  background-color: #FFD700;
+  color: #003366;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+}
+
+h1, h2, h3 {
+  color: #003366;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+}
+
+.models {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 1 1 30%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0.5rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.features-list {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}
+
+.filters {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+}
+
+label {
+  display: block;
+  margin-top: 0.5rem;
+}
+
+select, input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+}
